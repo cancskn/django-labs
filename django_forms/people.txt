@@ -1,0 +1,112 @@
+John,New York
+Sarah,Los Angeles
+John,London
+John,Krakow
+John,London
+John,London
+Maria,Berlin
+James,London
+Can,Warsaw
+Puskar,Warsaw
+Anna,London
+Mark,London
+Elena,Berlin
+David,Berlin
+Maria,Paris
+Leo,Paris
+Sofia,Madrid
+Ivan,Madrid
+Peter,Rome
+Peter, Rome
+Julia,Rome
+Mia,Prague
+Tomas,Prague
+Ella,Vienna
+Lukas,Vienna
+Olga,Kyiv
+Viktor,Kyiv
+Sara,Stockholm
+Jonas,Stockholm
+Emma,Helsinki
+Olli,Helsinki
+Nina,Oslo
+Nina, Warsaw
+Erik,Oslo
+Lara,Copenhagen
+Mads,Copenhagen
+Ava,Amsterdam
+Noah,Amsterdam
+Mila,Zurich
+Liam,Zurich
+Zara,Budapest
+Mate,Budapest
+Aya,Istanbul
+Emre,Istanbul
+Rita,Athens
+Nikos,Athens
+Hana,Bratislava
+Marek,Bratislava
+Alma,Zagreb
+Ivan,Zagreb
+Lina,Reykjavik
+Aron,Reykjavik
+Dora,Sofia
+Georgi,Sofia
+Aria, Krakow
+Igor, Warsaw
+Marek, Warsaw
+John, Warsaw
+Kamila, Warsaw
+Kamila, Gdansk
+Adam,Warsaw
+Ewa,Warsaw
+Piotr,Warsaw
+Kasia,Warsaw
+Marek,Warsaw
+Anna,Warsaw
+Tomasz,Warsaw
+Magda,Warsaw
+Jakub,Warsaw
+Ola,Warsaw
+Pawel,Warsaw
+Zofia,Warsaw
+Kamil,Warsaw
+Natalia,Warsaw
+Rafal,Warsaw
+Agnieszka,Warsaw
+Michal,Warsaw
+Monika,Warsaw
+Andrzej,Warsaw
+Karolina,Warsaw
+Grzegorz,Warsaw
+Justyna,Warsaw
+Lukasz,Warsaw
+Marta,Warsaw
+Bartek,Warsaw
+Beata,Warsaw
+Krystian,Warsaw
+Dorota,Warsaw
+Filip,Warsaw
+Joanna,Warsaw
+Sebastian,Warsaw
+Kamila,Warsaw
+Wojciech,Warsaw
+Eliza,Warsaw
+Patryk,Warsaw
+Dominika,Warsaw
+Mateusz,Warsaw
+Weronika,Warsaw
+Robert,Warsaw
+Sylwia,Warsaw
+Konrad,Warsaw
+Helena,Warsaw
+Damian,Warsaw
+Iwona,Warsaw
+Krzysztof,Warsaw
+Julia,Warsaw
+Szymon,Warsaw
+Alicja,Warsaw
+Daniel,Warsaw
+
+
+

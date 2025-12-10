@@ -1,0 +1,41 @@
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Send</button>
+</form>
+
+{% if message %}
+<hr>
+<p>{{ message|safe }}</p>
+{% endif %}
+
+{% if results and not page_obj %}
+<hr>
+<h3>Results:</h3>
+
+{% for person in results %}
+    <p>{{ person.0 }} - {{ person.1 }}</p>
+{% endfor %}
+{% endif %}
+
+{% if page_obj %}
+    {% for person in page_obj %}
+        <p>{{ person.0 }} - {{ person.1 }}</p>
+    {% endfor %}
+
+    <div>
+        {% if page_obj.has_previous %}
+            <a href="?page={{ page_obj.previous_page_number }}&name={{ form.name.value }}&city={{ form.city.value }}">
+                Previous
+            </a>
+        {% endif %}
+
+        Page {{ page_obj.number }} / {{ page_obj.paginator.num_pages }}
+
+        {% if page_obj.has_next %}
+            <a href="?page={{ page_obj.next_page_number }}&name={{ form.name.value }}&city={{ form.city.value }}">
+                Next
+            </a>
+        {% endif %}
+    </div>
+{% endif %}
