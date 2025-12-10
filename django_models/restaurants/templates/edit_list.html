@@ -1,0 +1,14 @@
+<h2>Select restaurant to edit</h2>
+
+<form method="POST" action="{% url 'edit_restaurants' %}">
+    {% csrf_token %}
+
+    {% for r in restaurants %}
+        <p>
+            <input type="radio" name="selected" value="{{ r.id }}">
+            {{ r.name }} — {{ r.specialization }}
+        </p>
+    {% endfor %}
+
+    <button type="submit">Edit Selected</button>
+</form>

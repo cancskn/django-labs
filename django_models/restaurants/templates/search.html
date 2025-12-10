@@ -1,0 +1,14 @@
+<h2>Search by specialization</h2>
+
+<form method="GET" action="{% url 'search_restaurant' %}">
+    <input type="text" name="q" value="{{ query }}" placeholder="Enter specialization...">
+    <button type="submit">Search</button>
+</form>
+
+<hr>
+
+{% for r in results %}
+    <p>{{ r.name }} — {{ r.specialization }} — {{ r.address }}</p>
+{% empty %}
+    <p>No restaurants found.</p>
+{% endfor %}

@@ -1,0 +1,14 @@
+<h2>All restaurants</h2>
+
+{% csrf_token %}
+
+{% for r in restaurants %}
+    <p>
+        {{ r.name }} — {{ r.specialization }} — {{ r.address }} 
+    </p>
+{% empty %}
+    <p>No restaurants found.</p>
+{% endfor %}
+
+
+

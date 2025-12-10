@@ -1,0 +1,14 @@
+<h2>Select restaurants to delete</h2>
+
+<form method="POST" action="{% url 'delete_selected' %}">
+    {% csrf_token %}
+    
+    {% for r in restaurants %}
+        <p>
+            <input type="checkbox" name="selected" value="{{ r.id }}">
+            {{ r.name }} — {{ r.specialization }}
+        </p>
+    {% endfor %}
+    
+    <button type="submit">Delete Selected</button>
+</form>

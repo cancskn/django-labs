@@ -1,0 +1,10 @@
+<h2>Edit Restaurant</h2>
+
+<form method="POST" action="{% url 'edit_restaurants' %}">
+    {% csrf_token %}
+
+    {{ form.as_table }}
+
+    <input type="hidden" name="restaurant_id" value="{{ restaurant_id }}">
+    <button type="submit" name="save">Save</button>
+</form>
